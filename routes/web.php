@@ -40,3 +40,4 @@ Route::get('/produtos', function () {
 Route::get('/produtos_teste/{id?}', function ($id = null) {
     return view('produto', ['id' => $id]);
 });
+
